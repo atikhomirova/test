@@ -1,6 +1,7 @@
 # Task 01
 # Find most frequent element in the list
 
-l = [1, 2, 3, 3, 3, 4, 5, 5, 5, 5]
+lst = [4, 2, 3, 4, 4, 4, 5, 5, 5, 5]
 
-print(max(set(l),key=l.count))
+print(max(set(lst),key=lst.count))
+print(min(set(lst),key=lst.count))
