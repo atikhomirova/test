@@ -3,7 +3,7 @@
 
 if __name__ = __main__:
 
-    def FIB(n):
+    def FIBONACCHI(n):
        if n == 0:
            return 0
        elif n == 1:
@@ -11,8 +11,8 @@ if __name__ = __main__:
        else:
            return fib(n - 1) + fib(n - 2)
     
-    n = 21
+    n = 11
     
     for i in range(n):
-        print(i)
+        print(FIBONACCHI(i))
 
