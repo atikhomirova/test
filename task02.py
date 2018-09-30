@@ -11,9 +11,8 @@ if __name__ = __main__:
        else:
            return fib(n - 1) + fib(n - 2)
     
-    n = 8
+    n = 5
     
     for i in range(n):
-        print(i)
         print(fib(i))
 
